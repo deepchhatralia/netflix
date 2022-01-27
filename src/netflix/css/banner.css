@@ -1,0 +1,36 @@
+.banner{
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.banner-info{
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+.banner-info .btn-class{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.banner-info .btn-class button{
+    margin: 10px 0;
+    margin-right: 18px;
+    padding: 0.3rem 1rem;
+    border: 0.5px solid white;
+    outline: none;
+    background-color: transparent;
+    color: white;
+}
+
+.banner-info p{
+    line-height: 18px;
+    font-size: 14px;
+    max-width: 60vw;
+    max-height: 30vh;
+    overflow: hidden;
+}

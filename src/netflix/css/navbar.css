@@ -1,0 +1,20 @@
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+
+    transition: all 1s ease;
+}
+
+nav img{
+    height: 30px;
+}
+
+.scrolled{
+    background-color: black;
+}

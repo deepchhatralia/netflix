@@ -1,0 +1,87 @@
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.faq-container h1{
+    font-size: 44px;
+}
+
+.faq-row{
+    margin-bottom: 10px;
+    user-select: none;
+}
+
+.faq-header{
+    background-color: #303030;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 30px;
+    cursor: pointer;
+}
+
+.fas{
+    font-size: 20px;
+}
+
+.faq-section{
+    margin-top: 1px;
+    background-color: #303030;
+    padding: 10px 30px 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.input-container{
+    display: flex;
+}
+
+.email-container button{
+    background-color: #F40612;
+    color: #fff;
+    padding: 10px 30px;
+    border: none;
+}
+
+.email-container input{
+    padding: 10px;
+    border: none;
+    flex: 1;
+    outline: none;
+}
+
+@media screen and (max-width:800px) {
+    .faq-header{
+        padding: 15px 18px;
+    }
+
+    .faq-section{
+        padding: 15px 18px 8px;
+        font-weight: normal;
+        font-size: 17px;
+    }
+
+    .input-container input{
+        width: 100%;
+        padding: 10px 15px;
+        margin: 10px;
+    }
+
+    .input-container button{
+        padding: 5px 10px;
+        
+    }
+
+    .input-container{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .input-container input{
+        width: 100%;
+    }
+}
